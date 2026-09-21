@@ -1,0 +1,26 @@
+{
+  "scope": "Current repository sources after smoke/paper integration; historical source hashes remain in reference_results.",
+  "sha256": {
+    "workflow.py": "2d578c8490a4b0cba21974bfa9ec475f7bd6469ca0db45ef6684f3e249dee111",
+    "run.py": "21481284e9c8092ab516e885172b2dba3bb8ec1bfe0609552108d7b68405a2cd",
+    "requirements.txt": "908ec3d48413fd75e04fb5f416d75fac023075eef9f7c53dee667c5274ad0c04",
+    "code/compare_reference.py": "74ac22cda7002e143e187b0a2031dbfea3659391f2f92d069891769462ca2e3d",
+    "code/figure_style.py": "942b478be1fcbb4451a06d72dba2a8ebb8453b9f50ea84c64173c66c15728c52",
+    "code/gid_pipeline.py": "e816eb0a983addcb8b423798bf0566f9809bfc023fc247d3798cd320c0772d1b",
+    "code/make_problem_figure.py": "58b6ef6a7d2eac3e1c03387eaf41d584737452253a0e16000f58157d05dd8c68",
+    "code/numerical_checks.py": "a5a136be3e7e290f5ee6aa44ad6050a8e48a9439ebff4badebdade40b3d79141",
+    "code/refinement_gate_checks.py": "727914080261cee8023edea848b3e3c00667440e002384c1d8083a601c97149c",
+    "code/render_figures.py": "0b376fd06bb5abcc3acc2476d7639bb921bf742602ecbe1e9157683743c57b22",
+    "code/run_config.py": "7330a682c9ef5c07175be40c50593d2668c88a63a12505afb025d70791e974bf",
+    "code/study_ab.py": "949625b9626a3c8c860ad528e8ab2e40a10d7a7cb2d623b291c98f7643d04a79",
+    "code/study_b_supplement.py": "d5038d3a61d6caf62f8fa2d55df7bc6703bd77962c781a81a0b631f9a74c1007",
+    "code/study_c_digits.py": "524a1a31d812fa8e94a1ab488b33e381cd03fedd5a5c1d7bf3bb628a9ae68473",
+    "code/study_c_validate.py": "44e6dbebbd4000502a49cf298c4f575c3d8269e063b1e505a7dc5b1eccb1559d",
+    "code/summarize_ab.py": "f27fd9609a01b5f7a77256f5e24f4db9ecdcd3fdadca830f19a8fccbdcbfbef4",
+    "checks/test_workflow.py": "109a078d622c3961740be3d73a67a3fd1e35ad328e387b4f233d1213ad0b1b73",
+    "protocols/study_a.json": "fd344083b2ada42b7552d3f3cf202ec9c4005c70b740db1e8dc18bce8c9fab77",
+    "protocols/study_b.json": "28680ee7914ab5f479d0505ce6c2d0e340d44005036165bd27a65bdf52a519ab",
+    "protocols/study_b_supplement.json": "89ad74ab918376bf8ea5d509b04e3638c91926272ecb2b188020725b610434a3",
+    "protocols/study_c.json": "69c5aa3acfd0848d69b4212fa49a4d47cc9a0f7da0eb0bc83f507d297e3a4547"
+  }
+}

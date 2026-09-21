@@ -1,0 +1,37 @@
+{
+  "n": 800,
+  "repeats": 400,
+  "failures": 0,
+  "first_gap_nonrejections": 371,
+  "holm_any_true_null_rejections": 28,
+  "holm_I1": {
+    "rejections": 12,
+    "rate": 0.03,
+    "wilson_low": 0.017243020965143054,
+    "wilson_high": 0.05169853570909567
+  },
+  "holm_I2": {
+    "rejections": 11,
+    "rate": 0.0275,
+    "wilson_low": 0.015423636260295411,
+    "wilson_high": 0.048565481885614784
+  },
+  "holm_I3": {
+    "rejections": 7,
+    "rate": 0.0175,
+    "wilson_low": 0.008502291107038103,
+    "wilson_high": 0.03567707292555804
+  },
+  "holm_I4": {
+    "rejections": 400,
+    "rate": 1.0,
+    "wilson_low": 0.9904877056657034,
+    "wilson_high": 0.9999999999999999
+  },
+  "holm_tail": {
+    "rejections": 400,
+    "rate": 1.0,
+    "wilson_low": 0.9904877056657034,
+    "wilson_high": 0.9999999999999999
+  }
+}

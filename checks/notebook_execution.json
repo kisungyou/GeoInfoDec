@@ -1,0 +1,38 @@
+[
+  {
+    "file": "notebooks/01_numerical_checks.ipynb",
+    "saved_mode": "smoke",
+    "saved_code_cells": 5,
+    "saved_outputs": 9,
+    "smoke_execution": "passed",
+    "paper_execution": "passed in isolated temporary copy",
+    "sha256": "79527c2d6390fd535bc17d74f17052a8e26a0cafee509f76c94fa54f4b81e527"
+  },
+  {
+    "file": "notebooks/02_study_a_calibration.ipynb",
+    "saved_mode": "smoke",
+    "saved_code_cells": 6,
+    "saved_outputs": 10,
+    "smoke_execution": "passed",
+    "paper_execution": "passed in isolated temporary copy",
+    "sha256": "6bf2f49064771e55aacdd6cc5abdc51a023a11d4927f491cf397bdcd1c42a876"
+  },
+  {
+    "file": "notebooks/03_study_b_information_and_inference.ipynb",
+    "saved_mode": "smoke",
+    "saved_code_cells": 7,
+    "saved_outputs": 13,
+    "smoke_execution": "passed",
+    "paper_execution": "passed in isolated temporary copy",
+    "sha256": "edcd481bba3566818955a5a4a07ff04dd8bbcdf456013667557a84f93fdda322"
+  },
+  {
+    "file": "notebooks/04_study_c_heldout_digits.ipynb",
+    "saved_mode": "smoke",
+    "saved_code_cells": 6,
+    "saved_outputs": 14,
+    "smoke_execution": "passed",
+    "paper_execution": "passed in isolated temporary copy",
+    "sha256": "9e4585a7dedcc0c42b468753c8b01551a08108297fcf6ecb02038906bbd969e5"
+  }
+]

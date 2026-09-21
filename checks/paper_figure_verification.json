@@ -1,0 +1,1205 @@
+{
+  "mode": "paper",
+  "created_utc": "2026-09-21T19:39:24.543865+00:00",
+  "font": "Computer Modern Roman, cmr10",
+  "font_size_tex_pt": 10,
+  "text_width_inches": 6.75,
+  "backend": "pgf",
+  "texsystem": "pdflatex",
+  "font_evidence": "Actual aistats2027.sty compiled in font-probe.tex: cmr10; 10 TeX pt; textwidth487.8225 TeX pt =6.75in.",
+  "inclusion": "Natural-size PDF or unscaled PGF; no width=, resizebox, or scalebox.",
+  "plot_rcparams": {
+    "pgf.texsystem": "pdflatex",
+    "pgf.rcfonts": false,
+    "pgf.preamble": "\\usepackage{amsmath,amssymb}",
+    "text.usetex": true,
+    "font.family": "serif",
+    "font.serif": [
+      "Computer Modern Roman"
+    ],
+    "font.size": 10,
+    "axes.labelsize": 10,
+    "axes.titlesize": 10,
+    "axes.titleweight": "normal",
+    "axes.labelweight": "normal",
+    "xtick.labelsize": 10,
+    "ytick.labelsize": 10,
+    "legend.fontsize": 10,
+    "legend.title_fontsize": 10,
+    "figure.titlesize": 10,
+    "figure.labelsize": 10,
+    "axes.prop_cycle": "cycler('color', ['#0072B2', '#D55E00', '#8E4779'])",
+    "axes.spines.top": false,
+    "axes.spines.right": false,
+    "axes.linewidth": 0.65,
+    "axes.edgecolor": "#242424",
+    "axes.labelcolor": "#242424",
+    "text.color": "#242424",
+    "axes.titlepad": 6,
+    "axes.labelpad": 4,
+    "axes.unicode_minus": false,
+    "axes.grid": false,
+    "xtick.direction": "out",
+    "ytick.direction": "out",
+    "xtick.major.size": 3,
+    "ytick.major.size": 3,
+    "xtick.major.width": 0.65,
+    "ytick.major.width": 0.65,
+    "xtick.major.pad": 3,
+    "ytick.major.pad": 3,
+    "xtick.color": "#242424",
+    "ytick.color": "#242424",
+    "lines.linewidth": 1.15,
+    "lines.markersize": 4,
+    "patch.linewidth": 0.65,
+    "legend.frameon": false,
+    "legend.borderaxespad": 0.3,
+    "legend.handlelength": 1.7,
+    "legend.handletextpad": 0.5,
+    "legend.columnspacing": 1.3,
+    "savefig.bbox": null,
+    "savefig.pad_inches": 0,
+    "figure.facecolor": "white",
+    "savefig.facecolor": "white",
+    "savefig.transparent": false
+  },
+  "figures": [
+    {
+      "text_bounding_boxes": [
+        {
+          "text": "Uniform",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            123.68788927902625,
+            292.46883333333335,
+            173.8809309456929,
+            304.8145
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Opposed modes",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            317.59572916666673,
+            292.46883333333335,
+            413.42927083333336,
+            304.8145
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Concentrated vMF",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            524.6401662765294,
+            292.46883333333335,
+            639.8410134987515,
+            304.8145
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$I_1$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            92.96276242101152,
+            39.170999999999985,
+            105.29883186545595,
+            51.51666666666665
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$I_2$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            192.2699883592632,
+            39.170999999999985,
+            204.60605780370764,
+            51.51666666666665
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Fitted gap (nats)",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            29.402749999999997,
+            44.90579912379842,
+            43.2916388888889,
+            149.72857690157616
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            48.84719444444445,
+            52.32686111111109,
+            55.79166666666667,
+            64.67252777777776
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{1}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            48.84719444444445,
+            89.7940491237984,
+            55.79166666666667,
+            102.13971579046508
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{2}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            48.84719444444445,
+            127.2612371364857,
+            55.79166666666667,
+            139.60690380315236
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$I_1$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            309.690852308652,
+            39.170999999999985,
+            322.0269217530964,
+            51.51666666666665
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$I_2$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            408.9980782469037,
+            39.170999999999985,
+            421.3341476913481,
+            51.51666666666665
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            265.57528433208495,
+            52.32686111111109,
+            272.51975655430715,
+            64.67252777777776
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{1}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            265.57528433208495,
+            89.7940491237984,
+            272.51975655430715,
+            102.13971579046508
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{2}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            265.57528433208495,
+            127.2612371364857,
+            272.51975655430715,
+            139.60690380315236
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$I_1$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            526.4189421962924,
+            39.170999999999985,
+            538.7550116407369,
+            51.51666666666665
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$I_2$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            625.7261681345441,
+            39.170999999999985,
+            638.0622375789886,
+            51.51666666666665
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            482.3033742197254,
+            52.32686111111109,
+            489.2478464419476,
+            64.67252777777776
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{1}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            482.3033742197254,
+            89.7940491237984,
+            489.2478464419476,
+            102.13971579046508
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{2}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            482.3033742197254,
+            127.2612371364857,
+            489.2478464419476,
+            139.60690380315236
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Mean gap $I_1$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            276.25561111111114,
+            14.447222222222223,
+            353.02081944444444,
+            26.79288888888889
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Residual gap $I_2$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            401.6319305555556,
+            14.447222222222223,
+            496.79994444444446,
+            26.79288888888889
+          ],
+          "outside_canvas": false
+        }
+      ],
+      "text_clipping_check_passed": true,
+      "width_inches": 6.75,
+      "height_inches": 3.15,
+      "font_size_tex_pt": 10,
+      "backend": "pgf",
+      "files": [
+        "figures/problem.pgf",
+        "figures/problem.pdf",
+        "figures/problem.png"
+      ],
+      "pgf_text_font_sizes_tex_pt": [
+        10.0
+      ],
+      "pgf_external_graphic_assets": [],
+      "pdf_canvas_big_points": [
+        486.0,
+        226.8
+      ],
+      "pdf_fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nJYHXFA+CMR10                         Type 1            Builtin          yes yes yes     11  0\nZTAVXI+CMMI10                        Type 1            Builtin          yes yes yes     12  0\nFYGEPU+CMR7                          Type 1            Builtin          yes yes yes     13  0\n",
+      "file_sha256": {
+        "figures/problem.pgf": "f8383e8d5b030a0aa18e29bfd5c2e5cbea169f6dff8b5af505031be2682019c3",
+        "figures/problem.pdf": "55de2c4d3326ea65f4a98c917017fb6a2a0d416c837011c88d5841ef8664ec7b",
+        "figures/problem.png": "5cd43c773f378388e2702b4f5063d1ba7d17fd08d0be770e16389e530b27fdaa"
+      }
+    },
+    {
+      "text_bounding_boxes": [
+        {
+          "text": "p-value",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            129.18372875816996,
+            38.26977777777779,
+            172.77950653594772,
+            50.61544444444446
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.0}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            55.25151388888889,
+            56.171000000000014,
+            72.9984861111111,
+            68.51666666666668
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.5}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            142.10813153594773,
+            56.171000000000014,
+            159.85510375816995,
+            68.51666666666668
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{1.0}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            228.96474918300657,
+            56.171000000000014,
+            246.7117214052288,
+            68.51666666666668
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Empirical CDF",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            20.14347222222222,
+            103.78246527777776,
+            32.48913888888889,
+            196.99253472222222
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.0}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            38.044694444444445,
+            69.32686111111111,
+            55.79166666666667,
+            81.67252777777779
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.5}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            38.044694444444445,
+            142.8643611111111,
+            55.79166666666667,
+            155.21002777777775
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{1.0}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            38.044694444444445,
+            216.40186111111112,
+            55.79166666666667,
+            228.74752777777778
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Informative weights",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            91.12424959150329,
+            229.55772222222222,
+            210.8389857026144,
+            241.90338888888888
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "p-value",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            337.6396111111111,
+            38.26977777777779,
+            381.2353888888889,
+            50.61544444444446
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.0}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            263.70739624183005,
+            56.171000000000014,
+            281.45436846405227,
+            68.51666666666668
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.5}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            350.5640138888889,
+            56.171000000000014,
+            368.3109861111111,
+            68.51666666666668
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{1.0}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            437.4206315359477,
+            56.171000000000014,
+            455.1676037581699,
+            68.51666666666668
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Fourth-harmonic null",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            294.68040972222224,
+            229.55772222222222,
+            424.19459027777776,
+            241.90338888888888
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "p-value",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            546.0954934640523,
+            38.26977777777779,
+            589.6912712418301,
+            50.61544444444446
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.0}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            472.16327859477127,
+            56.171000000000014,
+            489.9102508169935,
+            68.51666666666668
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.5}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            559.0198962418301,
+            56.171000000000014,
+            576.7668684640523,
+            68.51666666666668
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{1.0}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            645.8765138888889,
+            56.171000000000014,
+            663.6234861111111,
+            68.51666666666668
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Spherical vMF null",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            509.5213406862745,
+            229.55772222222222,
+            626.2654240196078,
+            241.90338888888888
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Fitted gap",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            198.3554722222222,
+            13.697222222222223,
+            262.2059444444444,
+            26.04288888888889
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Residual Wald",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            310.81705555555556,
+            13.697222222222223,
+            399.05025,
+            26.04288888888889
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Naive chi-square",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            447.6613611111111,
+            13.697222222222223,
+            547.7000833333333,
+            26.04288888888889
+          ],
+          "outside_canvas": false
+        }
+      ],
+      "text_clipping_check_passed": true,
+      "width_inches": 6.75,
+      "height_inches": 2.65,
+      "font_size_tex_pt": 10,
+      "backend": "pgf",
+      "files": [
+        "study_a/calibration_cdfs.pgf",
+        "study_a/calibration_cdfs.pdf",
+        "study_a/calibration_cdfs.png"
+      ],
+      "pgf_text_font_sizes_tex_pt": [
+        10.0
+      ],
+      "pgf_external_graphic_assets": [],
+      "pdf_canvas_big_points": [
+        486.0,
+        190.8
+      ],
+      "pdf_fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nKJXWWT+CMR10                         Type 1            Builtin          yes yes yes     11  0\nCUJHND+CMMI10                        Type 1            Builtin          yes yes yes     12  0\n",
+      "file_sha256": {
+        "study_a/calibration_cdfs.pgf": "0720d3255dedeb69e6b682681b894474bdff7d0b7c72dbceee9f69202314079c",
+        "study_a/calibration_cdfs.pdf": "9fc9e5b141e48d6e6ce4b848cbe64be7c75429459a6e94cdede475b5bd643d7f",
+        "study_a/calibration_cdfs.png": "955b00ba00ae8fd41e32f89d79cdf5384e86a455045c36b1c32c374501f11533"
+      }
+    },
+    {
+      "text_bounding_boxes": [
+        {
+          "text": "Raw second-moment\nnorm",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            90.88858189655174,
+            40.64510000000003,
+            216.15883189655176,
+            67.26544444444447
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.2}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            88.14150476328354,
+            72.82100000000003,
+            105.88847698550575,
+            85.1666666666667
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.4}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            153.97379411566297,
+            72.82100000000003,
+            171.72076633788518,
+            85.1666666666667
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.6}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            219.80608346804243,
+            72.82100000000003,
+            237.55305569026464,
+            85.1666666666667
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Held-out gain (nats)",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            21.975249999999996,
+            114.03999305555556,
+            35.86413888888889,
+            237.96000694444444
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.0}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            41.419694444444445,
+            94.3952284580499,
+            59.16666666666667,
+            106.74089512471657
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.2}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            41.419694444444445,
+            161.74216723356008,
+            59.16666666666667,
+            174.08783390022674
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.4}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            41.419694444444445,
+            229.08910600907026,
+            59.16666666666667,
+            241.43477267573692
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "vMF residual\nnorm",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            326.3917291666667,
+            40.64510000000003,
+            407.3332708333334,
+            67.26544444444447
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.10}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            316.1098140445217,
+            72.82100000000003,
+            340.8012446000773,
+            85.1666666666667
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.15}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            371.81847671122625,
+            72.82100000000003,
+            396.50990726678185,
+            85.1666666666667
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.20}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            427.52713937793084,
+            72.82100000000003,
+            452.21856993348644,
+            85.1666666666667
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Information gap $I_2$\n(nats)",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            522.7021056034483,
+            38.94755555555558,
+            637.7004806034482,
+            67.26544444444447
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.0}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            485.3041000957855,
+            72.82100000000003,
+            503.0510723180077,
+            85.1666666666667
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.1}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            534.6517473985716,
+            72.82100000000003,
+            552.3987196207938,
+            85.1666666666667
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.2}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            583.9993947013579,
+            72.82100000000003,
+            601.7463669235801,
+            85.1666666666667
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.3}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            633.347042004144,
+            72.82100000000003,
+            651.0940142263662,
+            85.1666666666667
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Other queries",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            240.21356250000002,
+            13.847222222222225,
+            322.54392361111115,
+            26.19288888888889
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Lowest first-gap quartile",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            371.15503472222224,
+            13.847222222222225,
+            519.3419930555556,
+            26.19288888888889
+          ],
+          "outside_canvas": false
+        }
+      ],
+      "text_clipping_check_passed": true,
+      "width_inches": 6.75,
+      "height_inches": 2.75,
+      "font_size_tex_pt": 10,
+      "backend": "pgf",
+      "files": [
+        "study_c_heldout.pgf",
+        "study_c_heldout.pdf",
+        "study_c_heldout.png"
+      ],
+      "pgf_text_font_sizes_tex_pt": [
+        10.0
+      ],
+      "pgf_external_graphic_assets": [],
+      "pdf_canvas_big_points": [
+        486.0,
+        198.0
+      ],
+      "pdf_fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nUMYYAR+CMR10                         Type 1            Builtin          yes yes yes     11  0\nRNZOLN+CMMI10                        Type 1            Builtin          yes yes yes     12  0\nRKDUWA+CMR7                          Type 1            Builtin          yes yes yes     13  0\n",
+      "file_sha256": {
+        "study_c_heldout.pgf": "bd616f8392f2591f842c26857105fc72f1e6bc7b7c43b3e00f68fc24c2a08971",
+        "study_c_heldout.pdf": "b97a8acc6c8a10a058ff75428531e44f6a3c82b2fa7b4db6e15426eae8fb7eeb",
+        "study_c_heldout.png": "8a9c4bfcc6acff3886b1549c768e035cddd6efbfde9ef181efeb432af470793a"
+      }
+    },
+    {
+      "text_bounding_boxes": [
+        {
+          "text": "Local tilt $b$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            158.58182254728132,
+            39.81977777777779,
+            225.30647532505907,
+            52.165444444444454
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            72.2726865194498,
+            57.72100000000001,
+            79.21715874167204,
+            70.06666666666668
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{1}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            130.37229967225446,
+            57.72100000000001,
+            137.31677189447666,
+            70.06666666666668
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{2}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            188.47191282505906,
+            57.72100000000001,
+            195.41638504728127,
+            70.06666666666668
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{3}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            246.5715259778637,
+            57.72100000000001,
+            253.5159982000859,
+            70.06666666666668
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{4}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            304.67113913066834,
+            57.72100000000001,
+            311.61561135289054,
+            70.06666666666668
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Rejection frequency",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            20.14347222222222,
+            98.9847777777778,
+            32.48913888888889,
+            218.81522222222222
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.0}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            38.044694444444445,
+            70.87686111111111,
+            55.79166666666667,
+            83.22252777777778
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.5}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            38.044694444444445,
+            151.3768611111111,
+            55.79166666666667,
+            163.72252777777777
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{1.0}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            38.044694444444445,
+            231.8768611111111,
+            55.79166666666667,
+            244.22252777777777
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Local alternatives",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            137.9702739361702,
+            245.03272222222225,
+            245.9180239361702,
+            257.3783888888889
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Fixed tilt $\\beta$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            501.8006705082741,
+            39.81977777777779,
+            572.3110316193852,
+            52.165444444444454
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.3}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            432.31800325059095,
+            57.72100000000001,
+            450.06497547281316,
+            70.06666666666668
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.6}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            624.0467266548462,
+            57.72100000000001,
+            641.7936988770684,
+            70.06666666666668
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Interval coverage",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            358.31071601654844,
+            107.54961111111112,
+            370.6563826832151,
+            210.2503888888889
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.80}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            376.21193823877064,
+            70.87686111111108,
+            400.9033687943262,
+            83.22252777777776
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.90}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            376.21193823877064,
+            151.37686111111108,
+            400.9033687943262,
+            163.72252777777774
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{0.95}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            376.21193823877064,
+            191.62686111111108,
+            400.9033687943262,
+            203.97252777777774
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$\\mathdefault{1.00}$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            376.21193823877064,
+            231.87686111111108,
+            400.9033687943262,
+            244.22252777777774
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Fixed alternatives",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            482.5032607860519,
+            245.03272222222225,
+            591.6084413416074,
+            257.3783888888889
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$n=200$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            247.48445138888889,
+            13.922222222222224,
+            295.17281249999996,
+            26.26788888888889
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "$n=800$",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            343.78392361111105,
+            13.922222222222224,
+            391.4722847222222,
+            26.26788888888889
+          ],
+          "outside_canvas": false
+        },
+        {
+          "text": "Reference",
+          "fontsize": 10.0,
+          "bounds_pixels": [
+            440.08339583333327,
+            13.922222222222224,
+            498.5711041666666,
+            26.26788888888889
+          ],
+          "outside_canvas": false
+        }
+      ],
+      "text_clipping_check_passed": true,
+      "width_inches": 6.75,
+      "height_inches": 2.8,
+      "font_size_tex_pt": 10,
+      "backend": "pgf",
+      "files": [
+        "study_b/power_coverage.pgf",
+        "study_b/power_coverage.pdf",
+        "study_b/power_coverage.png"
+      ],
+      "pgf_text_font_sizes_tex_pt": [
+        10.0
+      ],
+      "pgf_external_graphic_assets": [],
+      "pdf_canvas_big_points": [
+        486.0,
+        201.6
+      ],
+      "pdf_fonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nPUSBEJ+CMR10                         Type 1            Builtin          yes yes yes     11  0\nPRBXPD+CMMI10                        Type 1            Builtin          yes yes yes     12  0\n",
+      "file_sha256": {
+        "study_b/power_coverage.pgf": "b727887686e8a8892aa06590b2b6622779364e2059e9a88e1c41afb886ee9eae",
+        "study_b/power_coverage.pdf": "61247b032fae563075741e5a7252715dd948545ccf212e98ecb62c0c2dc05730",
+        "study_b/power_coverage.png": "7559eb6742ad248ff0fb6f4dfc8275aa485321922105ba1d6f8c6bea3bc9a60d"
+      }
+    }
+  ],
+  "scientific_inputs_unchanged": true,
+  "scientific_input_file_count": 83,
+  "scientific_input_sha256": {
+    "study_a/circle_cos4_direct_n200_draws.npz": "96fe31663b3744356a18130fa70e880724698df4e02069b31732c269fc2adea7",
+    "study_a/circle_cos4_direct_n200_replicates.csv": "4918728ae77a6987455b9e21e5c2cec307ed181d372ba9e86429d837d46b27c6",
+    "study_a/circle_cos4_direct_n800_draws.npz": "d85eb04056a7e769ddda129ea37d6edbab2defe12f9eb99a20a9422dcdd378f3",
+    "study_a/circle_cos4_direct_n800_replicates.csv": "b8b65620d3ea9993f2e8873d7b1d43b8bf4516617ff138f8e8c0a24999c47d98",
+    "study_a/circle_uniform_direct_n200_draws.npz": "776d83d5c1562b180dd4917b1c53ece82fb9c512fe4a87639c48479c43dfda16",
+    "study_a/circle_uniform_direct_n200_replicates.csv": "d7873d9e66593f139742dbea8ec38e5ce248db04b58bbba48dadf4a81a43ea54",
+    "study_a/circle_uniform_direct_n800_draws.npz": "3c5546b170c908a50b7068580bd4a47b9d77e9d05096723031f8991b2b1158be",
+    "study_a/circle_uniform_direct_n800_replicates.csv": "ee8de9fe8428fcc422ccd108a0786bd6076a4d151569657af4587dda834b43fa",
+    "study_a/circle_uniform_importance_n200_draws.npz": "e4ef8d49c314ec60347b6ad27f56f849d43397418b000efddf8ef6ce44490030",
+    "study_a/circle_uniform_importance_n200_replicates.csv": "bd55aec0d2b9a50ad1eb954aa7f23981a694ffc25acff2d311eedfd03cc6b7e0",
+    "study_a/circle_uniform_importance_n800_draws.npz": "042d0cf5f2aada2f0b2c8a26a76b84dda8b8f4be4a078b6881c676e739273bae",
+    "study_a/circle_uniform_importance_n800_replicates.csv": "25a25014fbe6857be391b227b05088c802796683e9843a26dc9262a156647d78",
+    "study_a/circle_vm2_direct_n200_draws.npz": "18c4a8d9d3e22998376361f002f156dc8cab46c4e665d05e039d3e187c9b37be",
+    "study_a/circle_vm2_direct_n200_replicates.csv": "bfce0f9a2fc6344ab80ab7d271333793b75a9800a18cc65957a943f091c744de",
+    "study_a/circle_vm2_direct_n800_draws.npz": "d43c69af91cdecffecb7243e278a96c9b812d68b9932caadcc40fcf39b7b5708",
+    "study_a/circle_vm2_direct_n800_replicates.csv": "254a9f4358740a934929666ecfc4804eaef06ebfc76229f2d97d6dcfa91e70ca",
+    "study_a/circle_vm2_importance_n200_draws.npz": "e4544d95b4156ccc5f941c98bc957f9bcbf070462888106843ab7ea59d9a1e5b",
+    "study_a/circle_vm2_importance_n200_replicates.csv": "9f520d07ef41d4c420d70d6b16b9b1e8825620f06d653e8c824cf684f98fef8d",
+    "study_a/circle_vm2_importance_n800_draws.npz": "082a76d20fe6c935d14e77d78101eb2b31e519b1f8abc6b303de201f22a389d7",
+    "study_a/circle_vm2_importance_n800_replicates.csv": "4f50e0d1989883570badc2930df5215efa7b668a5cc503c7424d3dcb8ba8c474",
+    "study_a/config.json": "5ca2110c3fbb6739a615fcda6e493da3214efe4e36ade127b4ab8b19a5ef8338",
+    "study_a/numerical_manifest.json": "d53c0d8c41339fa5987905c9ca53d67cd6cc1c0ba14c2edb22b607cf8074f131",
+    "study_a/rejection_summary.csv": "0e0e3b96c4485e9e04a36023208994c53f724621ac9c56c4e3fb2c1829134d2e",
+    "study_a/sphere_uniform_direct_n400_draws.npz": "534d2988e9bb2f9f63a6630911eb94bf931d11eccfa127d5887bd4c731b9c1b2",
+    "study_a/sphere_uniform_direct_n400_replicates.csv": "e77f07ba9a4127d96b9d414982db8efa2afd0dcc41521d4118917d2c3fdab25a",
+    "study_a/sphere_uniform_importance_n400_draws.npz": "066ad1dd34e783d1588ac32263065dd01a5264f0af55cfabf7a63d4d216699e8",
+    "study_a/sphere_uniform_importance_n400_replicates.csv": "7f0cf36c9aa3287c59cc64afc474ce69c961628b5a6fb0fed3bf9b9783d8d4f4",
+    "study_a/sphere_vm8_direct_n400_draws.npz": "5b46c3c4228e147fa32899d2eb4b9e840fc0bdd716875df871f13dd34120c5e1",
+    "study_a/sphere_vm8_direct_n400_replicates.csv": "6283cd450ae50d764d991bfc6b1c360ad22876bed6ea707a4da2b9dade64e021",
+    "study_a/surrogate_discrepancy.csv": "e32a702994cf29155766a06072a19e0af85fa01eea22625b7e3277c704671b60",
+    "study_b/config.json": "a881ce419b96747cb6d80ff9c98167fed43da2b73b6f41d2872cdf5eb0c79f2f",
+    "study_b/cos4_population_hierarchy.csv": "f6ecd1cc7d36c0a028e0e5b8942b1d7a69fd3c5a2fc2506ce922630b9c5d8cda",
+    "study_b/environment_manifest.json": "56b6926ed41e2e6792c52cafa3b74a884af1cdc205d45a59557f0cec3633cc04",
+    "study_b/finite_tail_draws.npz": "70cdf1cfaeb610aa7cc4d99acde88168d76a3c7b10742ea6365d0619218f235f",
+    "study_b/finite_tail_holm_replicates.csv": "f2ea89c2f5c7fd222002ca20f62a76e1ed9ede6b04b22ab0461c1fdb694357e2",
+    "study_b/finite_tail_holm_summary.json": "f9970f37bc8eaf9b24dd9c05ffbcb6367081b9cb85de5eaeb14228b6a83a76fa",
+    "study_b/fixed_b0.3_n200_draws.npz": "eb5e768fd8089974bf12ec720aa2b7d99a080d1fb575480a09e55d2f6184ef6b",
+    "study_b/fixed_b0.3_n200_replicates.csv": "bb58cc6044b3b9b44a1c388cdd1f57e97981fc7b7920b229e2f82281465ab7a8",
+    "study_b/fixed_b0.3_n800_draws.npz": "a753bf8ee135ab308ca1890b375640d59f7050ea702d067847689ffe9ad2a1ec",
+    "study_b/fixed_b0.3_n800_replicates.csv": "a7090ced642080fe409161b85c9cbd09a55c85d00dce384120d220d18bb60d61",
+    "study_b/fixed_b0.6_n200_draws.npz": "aeeee1f258a8e50a53febc221069a8b168af41350bb11233b53b3a4e5e0260fc",
+    "study_b/fixed_b0.6_n200_replicates.csv": "811950de078fdf9968589272e219bab92ff115d3fca9ef351df5f50801b5c8e2",
+    "study_b/fixed_b0.6_n800_draws.npz": "97690d07fb677875cb42c5ec834aec31badc78235796746abac1965efe4fa13d",
+    "study_b/fixed_b0.6_n800_replicates.csv": "24f5378ca76a26b8c87df18963ea80d5c09b84a539ce563126ce4f015bf2f7f2",
+    "study_b/local_b0_n200_draws.npz": "cbb6e27ad1338fb7f70c8ddcd9f10fec3d0f795f04427252c84e27fe1b38a224",
+    "study_b/local_b0_n200_replicates.csv": "adb4672afc075e94adba6e008a38160182a8a3b37a6309a8c0cb08dececca383",
+    "study_b/local_b0_n800_draws.npz": "ae010db8da1673696a99464ee522649613abaf07e0f59d3f7a26a96efe2bc626",
+    "study_b/local_b0_n800_replicates.csv": "5de387112222f67ce2f0f7b4b62c14567438b3f1db2ba18e984a21ea393419c7",
+    "study_b/local_b1_n200_draws.npz": "c112f342599b0fa9cd7a96bb8925061653baa71b0a614eb6cea4d802dd2933ed",
+    "study_b/local_b1_n200_replicates.csv": "5dc3de91f312f2a4bf7e176465197c62331010ad4d7dfcb5723ec6ea7dda705f",
+    "study_b/local_b1_n800_draws.npz": "daf9669337e904e743980f7b206358d2b9fd4201d31109c1e833571b1eeed880",
+    "study_b/local_b1_n800_replicates.csv": "6326608b033b131461ba7dfb3d266534f1856685714f228ceab6f721443d52f3",
+    "study_b/local_b2_n200_draws.npz": "edf8f60fcbf9c4f5ac0f158d19db69ca27134d547d89b396a5a46405a3dbd67e",
+    "study_b/local_b2_n200_replicates.csv": "567783ce66597bbec59e364b1c5f9ce7d556bf1c15394810c135ce9976cd8c12",
+    "study_b/local_b2_n800_draws.npz": "2fcf03a165613032b15db84d8be39395543e6871d5cd6eb5724c077e59b7b2b1",
+    "study_b/local_b2_n800_replicates.csv": "3695ca87c30d6ae838d4e3511cf912aeb393ffa115b335fffe6e82a9c8f90328",
+    "study_b/local_b3_n200_draws.npz": "fd5527e253be89b1c0e48a965043c8e40c47df55d619bf98612574869b3c887a",
+    "study_b/local_b3_n200_replicates.csv": "a4004520d8689ed11d4ed961613f5c30bd71d9cfb5f0972f92f7b8ce040317bf",
+    "study_b/local_b3_n800_draws.npz": "0562d4bde17e4764e52a9a074d37a6322ec1421a47a805864661407a70ec0b74",
+    "study_b/local_b3_n800_replicates.csv": "74e124e6a4d12b2afe7342cc75d6f079d7c6d6e281a5b6b2274bce14c199867f",
+    "study_b/local_b4_n200_draws.npz": "9ae4b9f125c301ff5dc3406bcb13d8ec084ee3839abaab13b82d37c64740ff4e",
+    "study_b/local_b4_n200_replicates.csv": "43d192ee69f72c0e3eb02912ba6899a32603aceec7dc8f4a32947786c3be87b6",
+    "study_b/local_b4_n800_draws.npz": "ee988a690a29c7a35b72f17cfc3d4b19225cab48adf58b632bc27b666406c403",
+    "study_b/local_b4_n800_replicates.csv": "9e24eddebe7d85d9dcb45fda2cacdca9b8be14fbba6f88bf03dc367c611227e2",
+    "study_b/numerical_manifest.json": "479374e7988c4d58acb8a5a5787d211df9b7c3f4db8d64a226afed91c362c5f7",
+    "study_b/numerical_unit_checks.json": "c0ae664f2d4803b52451c6783178bc6376fc2192fecb3106f72a164acd95ab67",
+    "study_b/pareto_stress_replicates.csv": "aba76dbb24012256329102afbb2f9f085830232d8c63bdd8f75af6d876ff6fc4",
+    "study_b/pareto_stress_summary.csv": "6ff49a4ba22f373febd4b024fc7501c8c100d3d18c3eca989df92949232a796b",
+    "study_b/power_estimation_summary.csv": "f30ae6e67bec0c22259ebdcdc184ac110e441a440ad1bb45c06cd45d04051166",
+    "study_b/refinement_gate_checks.json": "2268392fcd869fcb49d71f6e64ce1613814f0760421512271e0bb7d0ff1098fc",
+    "study_b/sphere_population_geometry.csv": "3766fa5b3a310ad3793b8be0b8f4f64b74142dc6574d68e2a6adb7c891314bd8",
+    "study_b/stress_antipodal_draws.npz": "c941ffdd0df7a2838b8ca199d600d40a0dddbf1dacaa8c1a83f15867d760f7d5",
+    "study_b/stress_trimodal_draws.npz": "bcd29cb7e547e445748797ddf14db653b95268dcce72330d705cd5d964bf2420",
+    "study_b/stress_unimodal_draws.npz": "f383e8f321e2c0a780cbf28710e1b564ee4eb2cf728346417ef4e3cdd2f796ca",
+    "study_b/supplement_config.json": "5674376ad68178e8ba88668f56be1d8ffca9c68ce4d84962dffca916f9120523",
+    "study_c_arrays.npz": "4f29352e38252545429aba255af884288d1e8bf54fc60b36a9c3bdb38c7d1cf6",
+    "study_c_failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "study_c_metadata.json": "f72827e4b4d65f7dea663684c5ac4e8feb404555d2b1f91d2c49e7b3a8162d7e",
+    "study_c_policies.csv": "cfe76b78fff02798c80a70c16eca359c3a4129964a80d6a0262ed58bfd1804be",
+    "study_c_protocol.json": "69c5aa3acfd0848d69b4212fa49a4d47cc9a0f7da0eb0bc83f507d297e3a4547",
+    "study_c_queries.csv": "b19fde3d716db6a0f5b9a807a62b12ca515099b47af2aacfe53c342a541e330e",
+    "study_c_summary.json": "26fed0fdb8f1fa2e8a22c0cec04094c33e3f945fa08b46305ea5bfec5abc0477",
+    "study_c_validation.json": "f6ac56dc0f5b78f1dab59a995a7251c427aaaf0c5af0b50b1af29509a8d0d882"
+  },
+  "exceptions": "No reduced-size prose, ticks, legends, or titles. Mathematical subscripts retain ordinary TeX script sizes, as in the manuscript.",
+  "sidecar_policy": "All PGF images are vector; the generated PGF files require no raster sidecars.",
+  "rendering_scope": "Stored simulation/query outputs and illustrative clouds only; no simulations, model fits, estimates, or statistical tests rerun."
+}

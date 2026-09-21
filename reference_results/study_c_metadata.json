@@ -1,0 +1,51 @@
+{
+  "seed": 20260916,
+  "protocol_sha256": "69c5aa3acfd0848d69b4212fa49a4d47cc9a0f7da0eb0bc83f507d297e3a4547",
+  "data_sha256": "20def7f70a702f0af9732fbba4375e147a7d54fe70d8c45569b8e7c1c7010c10",
+  "label_sha256": "a3c91c262eddcf7ba8f0e37507c30284493c9b20412ffe4af30d536401f7ba21",
+  "permutation_sha256": "39793955dce7ea8ea2c5bb6c0b884e27826b6957f39f73dc114616a640c9fd61",
+  "split_sha256": {
+    "representation": "cfe1956ed6c55542e9d7aa7e706ad66a43348a413145e5d1f14ab7fc63963e02",
+    "query": "267187eb9eea6ef5957e3deafe83d330b28afd8849466015789da29540d7af1e",
+    "reference": "08ba712a5873e4184137c8bcb7b79dd917635b61f77f1d2f100e7db42a8afe7e",
+    "evaluation": "93fa0b3478e53f9cddf4729caf9e3f9727dbf40f7eb870724b29527a3a6319bd"
+  },
+  "split_sizes": {
+    "representation": 600,
+    "query": 40,
+    "reference": 600,
+    "evaluation": 557
+  },
+  "excluded_ids": [],
+  "dataset": "sklearn.datasets.load_digits, all 1797 images",
+  "dataset_source": "https://doi.org/10.24432/C50P49",
+  "dataset_license": "CC BY 4.0 (UCI metadata)",
+  "source_access_date": "2026-09-16",
+  "timing_scope": "Dataset loading, preprocessing, all coarse/fine fits, diagnostics, numerical result writing; excludes import startup, report writing, and plotting",
+  "sum_query_analysis_seconds": 0.4628510393667966,
+  "independent_unit_scope": "Finite benchmark only; writer IDs unavailable; queries share pools",
+  "preprocessing": "StandardScaler with training-only mean and population variance, scale 1 for training-constant pixels; PCA(3,svd_solver='full') trained only on the representation set; normalize projected vectors to S2",
+  "pca_explained_variance_ratio": [
+    0.13280097346541528,
+    0.10797836601351378,
+    0.08549855895882523
+  ],
+  "versions": {
+    "python": "3.11.15",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0",
+    "matplotlib": "3.10.8"
+  },
+  "executable": "python",
+  "elapsed_seconds": 0.6752512909006327,
+  "failure_count": 0,
+  "query_temperature_count": 120,
+  "source_sha256": {
+    "gid_pipeline.py": "e816eb0a983addcb8b423798bf0566f9809bfc023fc247d3798cd320c0772d1b",
+    "study_c_digits.py": "160cafe782261e1038b641d4a47ba6c10819bc7fff657adb63b7ef75220d67b4",
+    "study_c_reproduce.py": "fd457fe3768ee642c7fc8faa773002c7695f229dc9e6f40ab3a809bca54dbd0e",
+    "study_c_validate.py": "6914708e9fa4b1b81935561cb36a2c216c577484eb88dd240cb112f95796a6dc"
+  },
+  "anonymization_note": "Local executable path removed; runtime version is retained."
+}

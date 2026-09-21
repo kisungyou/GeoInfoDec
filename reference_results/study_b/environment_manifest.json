@@ -1,0 +1,17 @@
+{
+  "python": "3.11.15",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "source_sha256": {
+    "gid_pipeline.py": "e816eb0a983addcb8b423798bf0566f9809bfc023fc247d3798cd320c0772d1b",
+    "study_ab.py": "fa260a7288a46916402c6c9d60eb66695b0aa038c27fa136d533fa6c78a2ad5d",
+    "study_b_supplement.py": "82ff83bd01291625686a3deb20a102d61727b1f56176ac88742f0437f7f489c7",
+    "numerical_checks.py": "dca9180ecd7174f379d12c2dc8b84e3ae1c820850c8e0dbf23d172b65c9fa54f",
+    "summarize_ab.py": "f672fbc1e2e880f255e100043c9f016aa8df97393b5851d800ee25a0c74276d3",
+    "reproduce_ab.py": "3a67dfde1d32b8a0cde269274c8610cdd3f6c569ce1a9635b481c6a3f173c596",
+    "refinement_gate_checks.py": "eb9ccd255f7b248f47998b5554f02f8686f5fd5f13beb920607cbb75e1b7fee8",
+    "audit_refinement_migration.py": "52039f6727d586c592b04feda97e89bcc1a971276a8c0a83b26fd817a9948a52"
+  },
+  "exact_command": "OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 MPLCONFIGDIR=/tmp/gid-mpl python code/study_ab.py; python code/study_b_supplement.py; python code/numerical_checks.py; python code/summarize_ab.py"
+}

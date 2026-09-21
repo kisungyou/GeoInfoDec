@@ -1,0 +1,31 @@
+{
+  "seed": 2035091601,
+  "repeats": 600,
+  "n": [
+    200,
+    800
+  ],
+  "fixed_beta": [
+    0.3,
+    0.6
+  ],
+  "local_b": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "target": "circle exp(2cos(theta)+beta cos(2theta))/Z; exact rejection samples from vM(0,2)",
+  "local_sequence": "beta=b/sqrt(n); chi2_2 noncentrality b\u00b2S_11 at vM(0,2)",
+  "intervals": "gap +/- 1.95996*sqrt(gamma.T Sigma gamma/n), empirical-centered iid covariance; no clipping",
+  "population": "independent 16384-point circle quadrature, verified at32768; sphere48x96 verified96x192",
+  "refinement_gate": {
+    "tolerance": 0.001,
+    "scale": "n",
+    "checked_rows": "first 10 replicates per cell",
+    "criterion": "n*abs(coarse gap-refined gap) <= tolerance; both refined fits successful and finite",
+    "history": "Added during final implementation audit, not used to tune statistical results; an operational diagnostic, not a uniform numerical error certificate"
+  },
+  "geometry": "population vMF(k8), equally weighted antipodal vMF(k8), exp(-12 z\u00b2) girdle, uniform; exact cos4 a=.8 hierarchy"
+}

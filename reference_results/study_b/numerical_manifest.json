@@ -1,0 +1,15 @@
+{
+  "total_replicates": 8400,
+  "failed": [],
+  "refinement_status_counts": {
+    "not_checked": 8260,
+    "ok": 140,
+    "unavailable_refined_fit": 0,
+    "excessive_scaled_difference": 0
+  },
+  "max_moment_error": 1.9989687682908652e-10,
+  "max_condition": 127.09258377543861,
+  "max_abs_kl_identity": 1.3242175064820394e-10,
+  "max_scaled_refinement": 1.0658141036401503e-12,
+  "total_seconds": 18.55090858298354
+}

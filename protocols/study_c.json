@@ -1,0 +1,22 @@
+{
+  "purpose": "Descriptive held-out comparison on a fixed finite benchmark; no population p-values or independent-query standard errors.",
+  "freeze_status": "Written before the first Study C analysis run; no outcome-dependent query or temperature selection.",
+  "seed": 20260916,
+  "partition_rule": "numpy.random.default_rng(seed).permutation(1797); first 600 representation, next 40 queries, next 600 reference, remaining 557 evaluation",
+  "representation": "StandardScaler with training-only mean and population variance, scale 1 for training-constant pixels; PCA(3,svd_solver='full') trained only on the representation set; normalize projected vectors to S2",
+  "near_zero_threshold": 1e-12,
+  "near_zero_rule": "Flag and exclude invalid reference/evaluation vectors without replacement; invalid query gets an explicit failure record. Record all IDs.",
+  "weight_rule": "exp(beta*cosine(standardized 64-dimensional query, standardized 64-dimensional observation)); normalize within reference and evaluation pools separately",
+  "primary_inverse_temperature": 6,
+  "sensitivity_inverse_temperatures": [3, 9],
+  "levels": "vMF: x,y,z; Fisher-Bingham: add (x^2-y^2)/sqrt(2),(x^2+y^2-2z^2)/sqrt(6),sqrt(2)xy,sqrt(2)xz,sqrt(2)yz",
+  "fit": "Unpenalized common fit_dual engine; no ridge, moment shrinkage, gap clipping, or significance calculation",
+  "quadrature": {"coarse": [24, 48], "fine": [48, 96], "measure": "normalized uniform sphere"},
+  "accuracy": {"moment_error_max": 1e-8, "gap_and_test_gain_grid_change_max": 1e-7},
+  "evaluation": "Normalized evaluation weights times log p_FisherBingham minus log p_vMF, in nats; retain negative values",
+  "descriptive_comparators": ["I1", "I2", "raw second-moment Frobenius norm", "vMF-residualized second-moment Frobenius norm", "model curvature score multiplied by reference sample count", "self-normalized sandwich Wald descriptor"],
+  "association": "Spearman rank correlation only, without p-values, for every comparator versus held-out gain across all 40 queries",
+  "decision": "For each comparator rank all queries by its reference-only value; select the largest half (20), ties by fixed query order. Report total gain divided by all 40 queries, selected mean gain, and negative-gain counts. Include always-vMF and always-FisherBingham policies; this is a fixed budget comparison, not learned deployment policy.",
+  "low_first_order": "Report lower I1 quartile (10 queries) defined from the reference fit alone, along with all-query results",
+  "scope": "Representation is a constructed scientific target. Shared fit/evaluation pools make query summaries dependent. Writer IDs are unavailable in load_digits. Labels describe queries and do not set geometric adequacy. No claim of benchmark-wide or population superiority."
+}

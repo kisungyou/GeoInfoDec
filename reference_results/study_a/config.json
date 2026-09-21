@@ -1,0 +1,103 @@
+{
+  "seed": 2026091601,
+  "alpha": 0.05,
+  "cells": [
+    {
+      "domain": "circle",
+      "law": "uniform_direct",
+      "n": 200,
+      "repeats": 1000
+    },
+    {
+      "domain": "circle",
+      "law": "vm2_direct",
+      "n": 200,
+      "repeats": 1000
+    },
+    {
+      "domain": "circle",
+      "law": "cos4_direct",
+      "n": 200,
+      "repeats": 1000
+    },
+    {
+      "domain": "circle",
+      "law": "uniform_importance",
+      "n": 200,
+      "repeats": 1000
+    },
+    {
+      "domain": "circle",
+      "law": "vm2_importance",
+      "n": 200,
+      "repeats": 1000
+    },
+    {
+      "domain": "circle",
+      "law": "uniform_direct",
+      "n": 800,
+      "repeats": 1000
+    },
+    {
+      "domain": "circle",
+      "law": "vm2_direct",
+      "n": 800,
+      "repeats": 1000
+    },
+    {
+      "domain": "circle",
+      "law": "cos4_direct",
+      "n": 800,
+      "repeats": 1000
+    },
+    {
+      "domain": "circle",
+      "law": "uniform_importance",
+      "n": 800,
+      "repeats": 1000
+    },
+    {
+      "domain": "circle",
+      "law": "vm2_importance",
+      "n": 800,
+      "repeats": 1000
+    },
+    {
+      "domain": "sphere",
+      "law": "uniform_direct",
+      "n": 400,
+      "repeats": 400
+    },
+    {
+      "domain": "sphere",
+      "law": "vm8_direct",
+      "n": 400,
+      "repeats": 400
+    },
+    {
+      "domain": "sphere",
+      "law": "uniform_importance",
+      "n": 400,
+      "repeats": 400
+    }
+  ],
+  "feature_definitions": "gid_pipeline.py; raw circle cos/sin in degree order; S2 linear plus Frobenius-orthonormal traceless quadratics",
+  "moment_null": "I2=0",
+  "circle_target": "uniform; vM(mu=0,kappa=2); (1+0.8cos(4theta)) relative to dtheta/(2pi)",
+  "circle_proposals": "uniform target: vM(0,1.2); vM(0,2) target: vM(0.5,1.2)",
+  "circle_ratios": "uniform: I0(1.2)*exp(-1.2cos(theta)); vm2: I0(1.2)/I0(2)*exp(2cos(theta)-1.2cos(theta-0.5))",
+  "sphere_proposal": "vMF(north,1.2); uniform ratio sinh(1.2)/(1.2)*exp(-1.2z)",
+  "grids": "circle 512 -> 1024; S2 Gauss-Legendre z times uniform azimuth 24x48 -> 48x96",
+  "optimizer": "unpenalized damped Newton; infinity moment tolerance 2e-10; max80; no ridge or shrinkage",
+  "reference": "q2:256 midpoint angles, q5:(1+exceedances)/(2^14+1), scrambled Sobol Gaussian squares seed19417; 2^16 check on refinement draws",
+  "refinement": "first 25 replicates per cell; rotate first 10; retain every failure",
+  "refinement_gate": {
+    "tolerance": 0.001,
+    "scale": "n",
+    "criterion": "n*abs(coarse gap-refined gap) <= tolerance; both refined fits successful and finite",
+    "history": "Added during final implementation audit, not used to tune statistical results; an operational diagnostic, not a uniform numerical error certificate"
+  },
+  "reported_statistic": "2*a2*(optimized full empirical dual - optimized reduced empirical dual)",
+  "covariance": "empirical-centered design-specific sandwich; iid scale n, importance scale n",
+  "saved_draws": "per-cell NPZ contains observations and exact realized unnormalized weights; per-replicate seed is deterministic from cell index and replicate"
+}

@@ -1,0 +1,383 @@
+{
+  "passed": true,
+  "mode": "paper",
+  "files_compared": 74,
+  "csv_scientific_fields_compared": 788102,
+  "saved_arrays_compared": 1983,
+  "rtol": 2e-10,
+  "atol": 2e-11,
+  "excluded_fields": [
+    "elapsed",
+    "elapsed_seconds",
+    "fit_seconds",
+    "total_seconds"
+  ],
+  "scope": "Scientific CSV fields, retained arrays, Study C summaries/failures, Holm results, and A/B numerical diagnostics. Historical source hashes and timings excluded.",
+  "files": [
+    {
+      "file": "study_a/circle_cos4_direct_n200_draws.npz",
+      "arrays": 2,
+      "passed": true
+    },
+    {
+      "file": "study_a/circle_cos4_direct_n200_replicates.csv",
+      "rows": 1000,
+      "passed": true
+    },
+    {
+      "file": "study_a/circle_cos4_direct_n800_draws.npz",
+      "arrays": 2,
+      "passed": true
+    },
+    {
+      "file": "study_a/circle_cos4_direct_n800_replicates.csv",
+      "rows": 1000,
+      "passed": true
+    },
+    {
+      "file": "study_a/circle_uniform_direct_n200_draws.npz",
+      "arrays": 2,
+      "passed": true
+    },
+    {
+      "file": "study_a/circle_uniform_direct_n200_replicates.csv",
+      "rows": 1000,
+      "passed": true
+    },
+    {
+      "file": "study_a/circle_uniform_direct_n800_draws.npz",
+      "arrays": 2,
+      "passed": true
+    },
+    {
+      "file": "study_a/circle_uniform_direct_n800_replicates.csv",
+      "rows": 1000,
+      "passed": true
+    },
+    {
+      "file": "study_a/circle_uniform_importance_n200_draws.npz",
+      "arrays": 2,
+      "passed": true
+    },
+    {
+      "file": "study_a/circle_uniform_importance_n200_replicates.csv",
+      "rows": 1000,
+      "passed": true
+    },
+    {
+      "file": "study_a/circle_uniform_importance_n800_draws.npz",
+      "arrays": 2,
+      "passed": true
+    },
+    {
+      "file": "study_a/circle_uniform_importance_n800_replicates.csv",
+      "rows": 1000,
+      "passed": true
+    },
+    {
+      "file": "study_a/circle_vm2_direct_n200_draws.npz",
+      "arrays": 2,
+      "passed": true
+    },
+    {
+      "file": "study_a/circle_vm2_direct_n200_replicates.csv",
+      "rows": 1000,
+      "passed": true
+    },
+    {
+      "file": "study_a/circle_vm2_direct_n800_draws.npz",
+      "arrays": 2,
+      "passed": true
+    },
+    {
+      "file": "study_a/circle_vm2_direct_n800_replicates.csv",
+      "rows": 1000,
+      "passed": true
+    },
+    {
+      "file": "study_a/circle_vm2_importance_n200_draws.npz",
+      "arrays": 2,
+      "passed": true
+    },
+    {
+      "file": "study_a/circle_vm2_importance_n200_replicates.csv",
+      "rows": 1000,
+      "passed": true
+    },
+    {
+      "file": "study_a/circle_vm2_importance_n800_draws.npz",
+      "arrays": 2,
+      "passed": true
+    },
+    {
+      "file": "study_a/circle_vm2_importance_n800_replicates.csv",
+      "rows": 1000,
+      "passed": true
+    },
+    {
+      "file": "study_a/rejection_summary.csv",
+      "rows": 67,
+      "passed": true
+    },
+    {
+      "file": "study_a/sphere_uniform_direct_n400_draws.npz",
+      "arrays": 2,
+      "passed": true
+    },
+    {
+      "file": "study_a/sphere_uniform_direct_n400_replicates.csv",
+      "rows": 400,
+      "passed": true
+    },
+    {
+      "file": "study_a/sphere_uniform_importance_n400_draws.npz",
+      "arrays": 2,
+      "passed": true
+    },
+    {
+      "file": "study_a/sphere_uniform_importance_n400_replicates.csv",
+      "rows": 400,
+      "passed": true
+    },
+    {
+      "file": "study_a/sphere_vm8_direct_n400_draws.npz",
+      "arrays": 2,
+      "passed": true
+    },
+    {
+      "file": "study_a/sphere_vm8_direct_n400_replicates.csv",
+      "rows": 400,
+      "passed": true
+    },
+    {
+      "file": "study_a/surrogate_discrepancy.csv",
+      "rows": 13,
+      "passed": true
+    },
+    {
+      "file": "study_b/cos4_population_hierarchy.csv",
+      "rows": 4,
+      "passed": true
+    },
+    {
+      "file": "study_b/finite_tail_draws.npz",
+      "arrays": 1,
+      "passed": true
+    },
+    {
+      "file": "study_b/finite_tail_holm_replicates.csv",
+      "rows": 400,
+      "passed": true
+    },
+    {
+      "file": "study_b/fixed_b0.3_n200_draws.npz",
+      "arrays": 1,
+      "passed": true
+    },
+    {
+      "file": "study_b/fixed_b0.3_n200_replicates.csv",
+      "rows": 600,
+      "passed": true
+    },
+    {
+      "file": "study_b/fixed_b0.3_n800_draws.npz",
+      "arrays": 1,
+      "passed": true
+    },
+    {
+      "file": "study_b/fixed_b0.3_n800_replicates.csv",
+      "rows": 600,
+      "passed": true
+    },
+    {
+      "file": "study_b/fixed_b0.6_n200_draws.npz",
+      "arrays": 1,
+      "passed": true
+    },
+    {
+      "file": "study_b/fixed_b0.6_n200_replicates.csv",
+      "rows": 600,
+      "passed": true
+    },
+    {
+      "file": "study_b/fixed_b0.6_n800_draws.npz",
+      "arrays": 1,
+      "passed": true
+    },
+    {
+      "file": "study_b/fixed_b0.6_n800_replicates.csv",
+      "rows": 600,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b0_n200_draws.npz",
+      "arrays": 1,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b0_n200_replicates.csv",
+      "rows": 600,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b0_n800_draws.npz",
+      "arrays": 1,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b0_n800_replicates.csv",
+      "rows": 600,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b1_n200_draws.npz",
+      "arrays": 1,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b1_n200_replicates.csv",
+      "rows": 600,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b1_n800_draws.npz",
+      "arrays": 1,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b1_n800_replicates.csv",
+      "rows": 600,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b2_n200_draws.npz",
+      "arrays": 1,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b2_n200_replicates.csv",
+      "rows": 600,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b2_n800_draws.npz",
+      "arrays": 1,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b2_n800_replicates.csv",
+      "rows": 600,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b3_n200_draws.npz",
+      "arrays": 1,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b3_n200_replicates.csv",
+      "rows": 600,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b3_n800_draws.npz",
+      "arrays": 1,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b3_n800_replicates.csv",
+      "rows": 600,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b4_n200_draws.npz",
+      "arrays": 1,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b4_n200_replicates.csv",
+      "rows": 600,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b4_n800_draws.npz",
+      "arrays": 1,
+      "passed": true
+    },
+    {
+      "file": "study_b/local_b4_n800_replicates.csv",
+      "rows": 600,
+      "passed": true
+    },
+    {
+      "file": "study_b/pareto_stress_replicates.csv",
+      "rows": 600,
+      "passed": true
+    },
+    {
+      "file": "study_b/pareto_stress_summary.csv",
+      "rows": 6,
+      "passed": true
+    },
+    {
+      "file": "study_b/power_estimation_summary.csv",
+      "rows": 14,
+      "passed": true
+    },
+    {
+      "file": "study_b/sphere_population_geometry.csv",
+      "rows": 4,
+      "passed": true
+    },
+    {
+      "file": "study_b/stress_antipodal_draws.npz",
+      "arrays": 2,
+      "passed": true
+    },
+    {
+      "file": "study_b/stress_trimodal_draws.npz",
+      "arrays": 2,
+      "passed": true
+    },
+    {
+      "file": "study_b/stress_unimodal_draws.npz",
+      "arrays": 2,
+      "passed": true
+    },
+    {
+      "file": "study_c_arrays.npz",
+      "arrays": 1936,
+      "passed": true
+    },
+    {
+      "file": "study_c_policies.csv",
+      "rows": 24,
+      "passed": true
+    },
+    {
+      "file": "study_c_queries.csv",
+      "rows": 120,
+      "passed": true
+    },
+    {
+      "file": "study_c_summary.json",
+      "passed": true
+    },
+    {
+      "file": "study_c_failures.json",
+      "passed": true
+    },
+    {
+      "file": "study_b/finite_tail_holm_summary.json",
+      "passed": true
+    },
+    {
+      "file": "study_a/numerical_manifest.json",
+      "passed": true
+    },
+    {
+      "file": "study_b/numerical_manifest.json",
+      "passed": true
+    }
+  ]
+}

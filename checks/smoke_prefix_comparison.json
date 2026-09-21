@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "checks": [
+    "Every smoke scientific replicate field and saved array equals its frozen paper replicate prefix (timing excluded).",
+    "Study A rejection and Study B rejection/coverage rates, MC standard errors and Wilson intervals recomputed from five actual records per cell.",
+    "Supplement counts and finite-tail Wilson denominators verified.",
+    "GID_PLOTS=0 created no figure outputs.",
+    "Both generated reports prominently label smoke outputs and avoid paper-validation claims."
+  ],
+  "compared_scientific_fields": 5865,
+  "compared_arrays": 47,
+  "compared_artifacts": 60
+}

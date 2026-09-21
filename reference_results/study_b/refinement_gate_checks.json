@@ -1,0 +1,81 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "name": "unchecked_preserves_outputs",
+      "expected": "not_checked",
+      "actual": "not_checked",
+      "passed": true,
+      "refined_full_status": "not_checked",
+      "refined_reduced_status": "not_checked"
+    },
+    {
+      "name": "successful_refinement_preserves_outputs",
+      "expected": "ok",
+      "actual": "ok",
+      "passed": true,
+      "refined_full_status": "ok",
+      "refined_reduced_status": "ok"
+    },
+    {
+      "name": "failed_full_fit_gates_every_inference_output",
+      "expected": "unavailable_refined_fit",
+      "actual": "unavailable_refined_fit",
+      "passed": true,
+      "refined_full_status": "injected_iteration_limit",
+      "refined_reduced_status": "ok"
+    },
+    {
+      "name": "failed_reduced_fit_gates_every_inference_output",
+      "expected": "unavailable_refined_fit",
+      "actual": "unavailable_refined_fit",
+      "passed": true,
+      "refined_full_status": "ok",
+      "refined_reduced_status": "injected_boundary_failure"
+    },
+    {
+      "name": "missing_required_reduced_fit_unavailable",
+      "expected": "unavailable_refined_fit",
+      "actual": "unavailable_refined_fit",
+      "passed": true,
+      "refined_full_status": "ok",
+      "refined_reduced_status": "missing"
+    },
+    {
+      "name": "nonfinite_refined_gap_unavailable",
+      "expected": "unavailable_refined_fit",
+      "actual": "unavailable_refined_fit",
+      "passed": true,
+      "refined_full_status": "ok",
+      "refined_reduced_status": "ok"
+    },
+    {
+      "name": "nonfinite_refined_parameter_unavailable",
+      "expected": "unavailable_refined_fit",
+      "actual": "unavailable_refined_fit",
+      "passed": true,
+      "refined_full_status": "ok",
+      "refined_reduced_status": "ok"
+    },
+    {
+      "name": "excessive_scaled_difference_gates_every_inference_output",
+      "expected": "excessive_scaled_difference",
+      "actual": "excessive_scaled_difference",
+      "passed": true,
+      "refined_full_status": "ok",
+      "refined_reduced_status": "ok"
+    },
+    {
+      "name": "subthreshold_scaled_difference_preserves_outputs",
+      "expected": "ok",
+      "actual": "ok",
+      "passed": true,
+      "refined_full_status": "ok",
+      "refined_reduced_status": "ok"
+    }
+  ],
+  "total": 9,
+  "tolerance": 0.001,
+  "provenance": "Failure injection unit checks using a fixed small fitted fixture, not an additional calibration experiment.",
+  "policy_history": "The gating threshold was added during the final implementation audit, not used to tune statistical results and not a uniform numerical error certificate."
+}

@@ -1,0 +1,13 @@
+{
+  "seed": 819263,
+  "pareto_shape": 1.5,
+  "n": 400,
+  "stress_repeats": 100,
+  "stress_laws": "vM(0,4); equal antipodal vM(k7); equal trimodal vM(k5.5)",
+  "stress_interpretation": "Independent Pareto raw weights have infinite second moment. Descriptive stress only; no Gaussian covariance or p-values.",
+  "finite_tail_law": "1+0.8cos4theta",
+  "finite_tail_n": 800,
+  "finite_tail_repeats": 400,
+  "planned_tests": "I1,I2,I3,I4 and D4-D1; Holm over all five, no stopping at first nonsignificance",
+  "numerical": "circle grid1024 for stress,512 for tail; tol2e-10, unpenalized; add-one scrambled Sobol reference for tail"
+}

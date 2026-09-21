@@ -1,0 +1,19 @@
+{
+  "total_replicates": 11200,
+  "failed": [],
+  "refinement_status_counts": {
+    "not_checked": 10875,
+    "ok": 325,
+    "unavailable_refined_fit": 0,
+    "excessive_scaled_difference": 0
+  },
+  "max_moment_error": 1.9997592470843983e-10,
+  "max_condition": 3480.935354664649,
+  "max_abs_kl_identity": 2.8237119760465834e-10,
+  "max_scaled_refinement": 2.1316282072803006e-12,
+  "max_scaled_rotation": 1.4210854715202004e-12,
+  "max_reference_refinement": 0.002108031239335284,
+  "fit_seconds": 13.491707588313147,
+  "total_seconds": 22.70826758397743,
+  "disclaimer": "Observed refinement and rotation differences are diagnostics, not certified bounds on continuous-integration error."
+}

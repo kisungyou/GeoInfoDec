@@ -1,0 +1,43 @@
+{
+  "paper_rows_equal_except_timing": true,
+  "row_differences": [],
+  "json_equal": {
+    "study_c_summary.json": true,
+    "study_c_failures.json": true
+  },
+  "policies_equal": true,
+  "reference_array_count": 1936,
+  "array_differences": [],
+  "added_array_keys": [
+    "evaluated_query_ids"
+  ],
+  "smoke_rows_exact_paper_subset": true,
+  "smoke_full_pools_unchanged": true,
+  "reference_metadata_equal": {
+    "data_sha256": true,
+    "label_sha256": true,
+    "permutation_sha256": true,
+    "split_sha256": true,
+    "split_sizes": true,
+    "excluded_ids": true
+  },
+  "negative_validation_checks": {
+    "missing_row": {
+      "rejected": true,
+      "error": "Expected 12 query-temperature rows, found 11"
+    },
+    "wrong_pair": {
+      "rejected": true,
+      "error": "Query-temperature pairing, uniqueness, or order mismatch"
+    },
+    "reported_failure": {
+      "rejected": true,
+      "error": "Analysis recorded 1 unsuccessful query-temperature fits"
+    },
+    "mode_mismatch": {
+      "rejected": true,
+      "error": "Saved mode does not match requested validation mode"
+    }
+  },
+  "passed": true
+}

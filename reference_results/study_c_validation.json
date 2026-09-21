@@ -1,0 +1,46 @@
+{
+  "passed": true,
+  "query_temperature_comparisons": 120,
+  "pairwise_disjoint": true,
+  "all_ids_partitioned": true,
+  "excluded_ids": [],
+  "max_discrepancies": {
+    "shared_pipeline_score_relative": 2.4225862258758378e-08,
+    "shared_pipeline_wald_relative": 4.188214285336676e-08,
+    "unit_sphere": 3.3306690738754696e-16,
+    "mean_match": 0.0,
+    "raw_frobenius": 7.771561172376096e-16,
+    "residual_frobenius": 3.3861802251067274e-15,
+    "empirical_logscore_identity": 1.3156142841808105e-14,
+    "analytic_vmf_I1": 5.684341886080802e-14,
+    "analytic_vmf_partition": 5.684341886080802e-14,
+    "finer_partition": 7.638334409421077e-14,
+    "test_gain": 0.0,
+    "shared_pipeline_score": 0.00021920628569205292,
+    "shared_pipeline_wald": 1.7896700015285205e-06,
+    "shared_pipeline_gap": 5.329070518200751e-15,
+    "saved_covariance": 5.898059818321144e-17
+  },
+  "thresholds": {
+    "shared_pipeline_score_relative": 1e-07,
+    "shared_pipeline_wald_relative": 1e-07,
+    "unit_sphere": 1e-07,
+    "mean_match": 1e-07,
+    "raw_frobenius": 1e-07,
+    "residual_frobenius": 1e-07,
+    "empirical_logscore_identity": 1e-07,
+    "analytic_vmf_I1": 1e-07,
+    "analytic_vmf_partition": 1e-07,
+    "finer_partition": 1e-07,
+    "test_gain": 1e-07,
+    "shared_pipeline_score": 0.001,
+    "shared_pipeline_wald": 1e-05,
+    "shared_pipeline_gap": 1e-07,
+    "saved_covariance": 1e-07
+  },
+  "finer_rule": [
+    64,
+    128
+  ],
+  "scope": "Saved-data integrity, independent identities, and numerical refinement; not population inference."
+}
